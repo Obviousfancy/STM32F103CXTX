@@ -100,3 +100,18 @@ org.eclipse.swt.SWTException: Widget is disposed
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-08-06 14:54:57.750
 !MESSAGE Indexed '00_SettingUpMinimumProject' (3 sources, 53 headers) in 1.33 sec: 1,950 declarations; 2,835 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2024-08-08 15:48:27.518 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_MX
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-08-08 15:48:53.354
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-08-08 15:48:53.410
+!MESSAGE Log4j2 initialized with config file D:\Escritorio\Proyectos\STM32Projects\STM32F103MutexEmbeddedIO\STM32F103CXTX\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-08-08 15:49:01.287
+!MESSAGE Started RMI Server, listening on port 41337

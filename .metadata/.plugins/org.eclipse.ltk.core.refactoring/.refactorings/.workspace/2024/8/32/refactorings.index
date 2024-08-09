@@ -1,3 +1,5 @@
 1722978091890	Delete 2 resources
 1722978184055	Delete resource '00_SettingUpMinimumProject/Startup/startup_stm32f103c8tx.s'
 1722979250990	Delete resource '00_SettingUpMinimumProject/Debug'
+1723155475682	Delete resource '00_SettingUpMinimumProject/Peripherals/Inc/RCC.h'
+1723155478487	Delete resource '00_SettingUpMinimumProject/Peripherals/Src/RCC.c'

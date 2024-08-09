@@ -6,11 +6,12 @@
  */
 
 #include "main.h"
-
+#include "RCC.h"
 int main(void)
 {
 
-
+  //MAX Clock of 72 MHz
+  RCC_HSE_Config();
 	while(1)
 	{
 

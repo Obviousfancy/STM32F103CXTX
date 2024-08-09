@@ -1,0 +1,30 @@
+/*
+ * RCC.c
+ *
+ *  Created on: Aug 8, 2024
+ *      Author: Obviousfancy
+ */
+
+#include "RCC.h"
+void RCC_HSE_Config(void)
+{
+  /*
+   * Configuration parameters(for Maximum Speed 72 MHz) --> STM32F103 Clock Tree
+   *
+   * HSE(High Speed External Oscilator) = 8 MHz
+   * PLL_Mul(Multiplexor PLL) = 9
+   * USB Preescaler = 1
+   * AHB Preescaler = 1
+   * Cortex Preescaler(To Cortex System Timer) = 1
+   * -->72 MHz System Clock
+   *
+   * APB1 preescaler = 2 --> 36 Mhz Peripheral Clocks,72 MHz Timer Clocks
+   * APB2 preescaler = 1 --> 72 MHz for Peripheral and Timer Clocks
+   * ADC Preescaler = 6 --> 12 Mhz
+   */
+
+  //PLL Configurations
+  //PLL_Mul = 9
+  RCC->CFGR &= ~(0xFUL << 18);    //Clear bitfields [21-18]   1111
+
+}
